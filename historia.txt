@@ -1,1 +1,3 @@
-hola soy cristian
+name = 'Cristian'
+
+print(f'Hi I'm {name}')
