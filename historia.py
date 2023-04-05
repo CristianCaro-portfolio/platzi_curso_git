@@ -1,7 +1,9 @@
 name = 'Cristian'
 
-print(f'Hi I'm {name}')
+print(f'Hi Im {name}')
+
+n = 0
 
 for letter in name:
-	n = 0
-	print (f'the letter {letter} is in position {n + 1}')
+    n += 1
+    print(f'the letter {letter} is in position {n}')
